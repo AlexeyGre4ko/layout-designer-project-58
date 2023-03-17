@@ -1,13 +1,24 @@
 /** CSS STYLE **/
-
-.hello {
-    display: block;
-
-    color: #fff;
+@font-face{
+    font-family: 'Neucha';
+    src: url('../fonts/Neucha-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@font-face{
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Open Sans Bold';
+    src: url('../fonts/OpenSans-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
 
 :root {
     --white: #fff;
@@ -30,17 +41,21 @@ html {
 }
 
 body {
-    max-width: 1110px;
+    max-width: 1440px;
     margin: 100px auto;
 }
 
-h {
+h1, h2, h3 {
     line-height: 1.2em;
     font-family: 'Neucha', cursive;
 }
 
 h1 {
     font-size: 72px;
+    font-weight: normal;
+    position: relative;
+    top: 100px;
+    z-index: 1;
 }
 
 h2 {
@@ -49,4 +64,61 @@ h2 {
 
 h3 {
     font-size: 34px;
+}
+
+.header {
+    position: relative;
+    height: 914px;
+    max-width: 1110px;
+    margin: auto;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -165px;
+    height: 914px;
+    width: 1440px;
+    background-image: url(/src/img/image\ 1.png);
+    background-color: var(--light);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-color {
+    color: var(--main);
+}
+
+.hexlet-student {
+    position: relative;
+    top: -252px;
+    right: -295px;
+}
+
+.paragraf {
+    column-count: 2;
+    column-gap: 30px;
+    position: relative;
+    bottom: 300px;
+    max-height: 186px;
+}
+
+.button {
+    width: 148px;
+    height: 49px;
+    background-color: var(--main);
+    color: var(--white);
+    font-family: 'Open Sans Bold', sans-serif;
+    font-size: 16px;
+    position: relative;
+    left: 570px;
+    bottom: 285px;
+    border: none;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--white);
 }
