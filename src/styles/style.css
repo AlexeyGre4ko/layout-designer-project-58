@@ -69,6 +69,12 @@ h2 {
 
 h3 {
     font-size: 34px;
+    font-weight: normal;
+    color: var(--main);
+    position: relative;
+    margin: 0;
+    top: 104px;
+    left: 25px;
 }
 
 .header {
@@ -144,4 +150,74 @@ h3 {
     top: 157px;
     left: 261px;
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.navigation {
+    height: 891px;
+    background-color: var(--main-dark);
+}
+
+.cards {
+    height: 691px;
+    width: 1110px;
+    position: relative;
+    top: 100px;
+    margin: auto;
+    font-family: 'Neucha', cursive;
+    font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.card-1 {
+    width: 350px;
+    height: 323px;
+    background-color: var(--light);
+}
+
+.card {
+    width: 350px;
+    height: 348px;
+    background-color: var(--light);
+}
+
+.card-title {
+    width: 350px;
+    height: 323px;
+    font-size: 52px;
+    color: var(--white);
+    line-height: 1.2em;
+    vertical-align: top;
+}
+
+.card-paragraf {
+    margin: 0;
+}
+
+.number {
+    font-size: 64px;
+    font-weight: normal;
+    color: var(--main-dark);
+    position: relative;
+    margin: 0;
+    top: 38px;
+    left: 24px;
+    display: block;
+}
+
+.card-content {
+    position: relative;
+    margin: 0;
+    left: 24px;
+    top: 116px;
+    font-family: 'Open Sans', sans-serif;
+    width: 302px;
+}
+
+.link-card {
+    display: block;
+    height: 100%;
+    text-decoration: none;
 }
