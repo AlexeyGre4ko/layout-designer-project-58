@@ -413,3 +413,25 @@ h4 {
     margin: auto;
     top: 521px;
 }
+
+.hyperbolic-depreciation::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 1440px;
+    background-image: url(/src/img/image\ 1.png);
+    background-color: var(--brown);
+    opacity: 0.9;
+    right: -165px;
+    top: -100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 221px;
+}
+.hyperbolic-depreciation {
+    position: relative;
+    height: 100%;
+    max-width: 1110px;
+    margin: auto;
+    top: 621px;
+}
