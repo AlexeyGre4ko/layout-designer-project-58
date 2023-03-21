@@ -38,6 +38,7 @@ html {
     line-height: 1.6em;
     color: #2A2626;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -434,4 +435,25 @@ h4 {
     max-width: 1110px;
     margin: auto;
     top: 621px;
+}
+
+.errors-in-planning::before {
+    content: "";
+    position: absolute;
+    height: 960px;
+    width: 1440px;
+    background-image: url(/src/img/image\ 1.png);
+    background-color: var(--light);
+    opacity: 0.9;
+    top: -100px;
+    right: -165px;
+    background-repeat: no-repeat;
+}
+
+.errors-in-planning {
+    position: relative;
+    height: 735px;
+    max-width: 1110px;
+    margin: auto;
+    top: 941px;
 }
