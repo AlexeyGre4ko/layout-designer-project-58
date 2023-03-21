@@ -318,7 +318,7 @@ h4 {
     right: -165px;
     top: -100px;
     background-repeat: no-repeat;
-    padding: 100px 0 205px;
+    padding: 100px 0 221px;
 }
 
 .premature-optimization {
@@ -391,4 +391,25 @@ h4 {
     margin: 0;
     top: 120px;
     color: var(--white);
+}
+
+.distortion-of-novelty::before {
+    content: "";
+    position: absolute;
+    height: 960px;
+    width: 1440px;
+    background-image: url(/src/img/image\ 1.png);
+    background-color: var(--light);
+    opacity: 0.9;
+    top: -100px;
+    right: -165px;
+    background-repeat: no-repeat;
+}
+
+.distortion-of-novelty {
+    position: relative;
+    height: 735px;
+    max-width: 1110px;
+    margin: auto;
+    top: 521px;
 }
