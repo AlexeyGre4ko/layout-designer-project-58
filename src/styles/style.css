@@ -92,7 +92,7 @@ h3 {
     right: -165px;
     height: 914px;
     width: 1440px;
-    background-image: url(/src/img/image\ 1.png);
+    background-image: url(/src/img/image-1.png);
     background-color: var(--light);
     opacity: 0.9;
     background-repeat: no-repeat;
@@ -215,6 +215,7 @@ h3 {
     top: 116px;
     font-family: 'Open Sans', sans-serif;
     width: 302px;
+    color: var(--dark);
 }
 
 .link-card {
@@ -228,17 +229,18 @@ h3 {
     position: absolute;
     height: 960px;
     width: 1440px;
-    background-image: url(/src/img/image\ 1.png);
+    background-image: url(/src/img/image-1.png);
     background-color: var(--light);
     opacity: 0.9;
     top: -100px;
     right: -165px;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .ikea-effect {
     position: relative;
-    height: 735px;
+    height: 805px;
     max-width: 1110px;
     margin: auto;
     top: 100px;
@@ -313,13 +315,14 @@ h4 {
     position: absolute;
     height: 100%;
     width: 1440px;
-    background-image: url(/src/img/image\ 1.png);
+    background-image: url(/src/img/image-1.png);
     background-color: var(--brown);
     opacity: 0.9;
     right: -165px;
     top: -100px;
     background-repeat: no-repeat;
-    padding: 100px 0 221px;
+    background-size: cover;
+    padding: 100px 0 326px;
 }
 
 .premature-optimization {
@@ -399,17 +402,17 @@ h4 {
     position: absolute;
     height: 960px;
     width: 1440px;
-    background-image: url(/src/img/image\ 1.png);
+    background-image: url(/src/img/image-1.png);
     background-color: var(--light);
-    opacity: 0.9;
     top: -100px;
     right: -165px;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .distortion-of-novelty {
     position: relative;
-    height: 735px;
+    height: 780px;
     max-width: 1110px;
     margin: auto;
     top: 521px;
@@ -420,7 +423,7 @@ h4 {
     position: absolute;
     height: 100%;
     width: 1440px;
-    background-image: url(/src/img/image\ 1.png);
+    background-image: url(/src/img/image-1.png);
     background-color: var(--brown);
     opacity: 0.9;
     right: -165px;
@@ -440,9 +443,9 @@ h4 {
 .errors-in-planning::before {
     content: "";
     position: absolute;
-    height: 960px;
+    height: 919px;
     width: 1440px;
-    background-image: url(/src/img/image\ 1.png);
+    background-image: url(/src/img/image-1.png);
     background-color: var(--light);
     opacity: 0.9;
     top: -100px;
@@ -452,8 +455,128 @@ h4 {
 
 .errors-in-planning {
     position: relative;
-    height: 735px;
+    height: 719px;
     max-width: 1110px;
     margin: auto;
     top: 941px;
+}
+
+.footer::before {
+    content: "";
+    position: absolute;
+    height: 581px;
+    width: 1440px;
+    top: -100px;
+    right: -165px;
+}
+
+.footer {
+    position: relative;
+    height: 370px;
+    max-width: 1110px;
+    margin: auto;
+    top: 1165px;
+}
+
+.input-conteiner {
+    background-color: var(--main-dark);
+    height: 190px;
+    padding: 38px 55px;
+    box-sizing: border-box;
+    column-count: 2;
+}
+
+.input-header {
+    font-size: 34px;
+    font-family: 'Neucha', cursive;
+    font-weight: normal;
+    color: var(--white);
+    line-height: 41px;
+    position: relative;
+    margin: 0;
+    height: 80px;
+    width: 393px;
+    top: 17px;
+}
+
+.label {
+    color: var(--white);
+    font-size: 18px;
+    margin: 9px 0;
+    height: 28px;
+}
+
+.email {
+    width: 423px;
+    height: 50px;
+    padding: 0 15px;
+    border: 0;
+    position: relative;
+    top: 37px;
+    right: 510px;
+}
+
+.submit::before {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    top: 0;
+    right: 0;
+    background-color: var(--main);
+    background-image: url(/src/img/Vector.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.submit {
+    width: 70px;
+    height: 50px;
+    position: relative;
+    padding: 0;
+    border: 0;
+    top: -13px;
+    right: 88px;
+}
+
+.input-bottom {
+    font-size: 12px;
+    color: var(--white);
+    position: relative;
+    right: 1018px;
+    top: 88px;
+    height: 25px;
+    margin: 0;
+}
+
+.name {
+    color: #000000;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    margin-top: 76px;
+    height: 22px;
+}
+
+.article-link {
+    margin: 16px 0;
+    color: #000000;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    height: 25px;
+}
+
+.hexlet-link {
+    color: #007DC1;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    height: 25px;
+    text-decoration: underline;
+}
+
+.blue {
+    color: #007DC1;
+    text-decoration: underline;
 }
