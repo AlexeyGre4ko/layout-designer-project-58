@@ -83,9 +83,8 @@ h3 {
     height: 914px;
     max-width: 1440px;
     padding: 0 165px;
-    background-image: url(img/image-1.png);
-    background-color: var(--light);
 }
+
 
 .header::before {
     content: "";
@@ -94,11 +93,11 @@ h3 {
     right: 0;
     height: 914px;
     width: 1440px;
-
-
-
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url("../img/image-1.png");
+    background-color: var(--light);
+    opacity: 0.9;
 }
 
 .main-color {
