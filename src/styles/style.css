@@ -136,7 +136,7 @@ h3 {
 }
 .video {
     height: 914px;
-    background: linear-gradient(var(--white) 814px, var(--main-dark) 814px, var(--main-dark) 914px)
+    background: linear-gradient(var(--white) 810px, var(--main-dark) 810px, var(--main-dark) 914px);
 }
 
 .paragraf-video {
