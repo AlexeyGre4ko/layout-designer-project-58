@@ -81,14 +81,14 @@ h3 {
     position: relative;
     height: 914px;
     max-width: 1440px;
-    margin: 0 165px;
+    padding: 0 165px;
 }
 
 .header::before {
     content: "";
     position: absolute;
     top: 0;
-    right: -165px;
+    right: 0;
     height: 914px;
     width: 1440px;
     background-color: var(--light);
