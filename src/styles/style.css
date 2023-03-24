@@ -55,7 +55,8 @@ h1 {
     font-size: 72px;
     font-weight: normal;
     position: relative;
-    top: 100px;
+    top: 0;
+    margin: 0;
     z-index: 1;
 }
 
@@ -95,7 +96,8 @@ h4 {
     position: relative;
     height: 914px;
     max-width: 1440px;
-    padding: 0 165px;
+    padding: 100px 165px;
+    box-sizing: border-box;
 }
 
 
@@ -119,7 +121,7 @@ h4 {
 
 .hexlet-student {
     position: relative;
-    top: -252px;
+    top: -305px;
     right: -295px;
 }
 
@@ -127,8 +129,12 @@ h4 {
     column-count: 2;
     column-gap: 30px;
     position: relative;
-    bottom: 300px;
-    max-height: 186px;
+    top: -339px;
+    height: 186px;
+    width: 1110px;
+    margin: 0;
+    padding-top: 6px;
+    box-sizing: border-box;
 }
 
 .button {
@@ -140,8 +146,9 @@ h4 {
     font-size: 16px;
     position: relative;
     left: 570px;
-    bottom: 285px;
+    bottom: 313px;
     border: none;
+    padding: 0;
 }
 
 .link {
