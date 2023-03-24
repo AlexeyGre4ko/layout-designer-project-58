@@ -150,7 +150,7 @@ h4 {
 }
 .video {
     height: 914px;
-    background: linear-gradient(var(--white) 700px, var(--main-dark) 700px, var(--main-dark) 914px);
+    background: linear-gradient(var(--white) 814px, var(--main-dark) 814px, var(--main-dark) 914px);
     padding: 100px 260px 16px 261px;
     box-sizing: border-box;
 }
@@ -159,11 +159,13 @@ h4 {
     text-align: center;
     position: relative;
     margin: 0;
+    height: 26px;
     top: 27px;
 }
 
 .h-video {
     top: 0;
+    height: 146px;
 }
 
 .video-i {
