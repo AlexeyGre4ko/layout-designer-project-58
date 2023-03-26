@@ -129,12 +129,25 @@ h4 {
     column-count: 2;
     column-gap: 30px;
     position: relative;
-    top: -339px;
-    height: 186px;
+    top: -351px;
+    height: 200px;
     width: 1110px;
     margin: 0;
-    padding-top: 6px;
+    padding-top: 0px;
     box-sizing: border-box;
+
+}
+
+.paragraf-header {
+    margin: 0;
+    height: 170px;
+    padding-top: 16px;
+}
+
+.paragraf-header-1 {
+    margin-top: 4px;
+    height: 130px;
+    padding-top: 11px;
 }
 
 .button {
