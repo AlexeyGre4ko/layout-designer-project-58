@@ -121,7 +121,7 @@ h4 {
 
 .hexlet-student {
     position: relative;
-    top: -305px;
+    top: -300px;
     right: -295px;
 }
 
@@ -129,7 +129,7 @@ h4 {
     column-count: 2;
     column-gap: 30px;
     position: relative;
-    top: -351px;
+    top: -345px;
     height: 200px;
     width: 1110px;
     margin: 0;
@@ -159,7 +159,7 @@ h4 {
     font-size: 16px;
     position: relative;
     left: 570px;
-    bottom: 338px;
+    bottom: 330px;
     border: none;
     padding: 0;
 }
