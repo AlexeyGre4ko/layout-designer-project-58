@@ -147,6 +147,8 @@ h4 {
     margin-top: 4px;
     height: 130px;
     padding-top: 12px;
+    font-style: normal;
+    font-weight: normal;
 }
 
 .button {
