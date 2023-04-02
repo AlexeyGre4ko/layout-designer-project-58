@@ -127,7 +127,7 @@ h4 {
 
 .paragraf {
     column-count: 2;
-    column-gap: 20px;
+    column-gap: 25px;
     column-width: 545px;
     position: relative;
     top: -347px;
