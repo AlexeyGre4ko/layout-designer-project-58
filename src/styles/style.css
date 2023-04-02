@@ -127,8 +127,8 @@ h4 {
 
 .paragraf {
     column-count: 2;
-    column-gap: 20px;
-    column-width: 545px;
+    column-gap: 30px;
+    column-width: 540px;
     position: relative;
     top: -347px;
     width: 1110px;
@@ -147,8 +147,6 @@ h4 {
     margin-top: 4px;
     height: 130px;
     padding-top: 12px;
-
-    padding-left: 0;
 }
 
 .button {
