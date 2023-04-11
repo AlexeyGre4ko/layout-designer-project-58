@@ -302,8 +302,7 @@ h4 {
 .first-columns {
     width: 100%;
     height: 434px;
-    column-count: 2;
-    column-gap: 106px;
+    display: flex;
 }
 
 
