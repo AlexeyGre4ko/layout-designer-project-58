@@ -320,6 +320,7 @@ h4 {
     font-size: 24px;
     font-family: 'Neucha', cursive;
     right: 0;
+    top: 0;
 }
 
 .second-header-light {
@@ -388,6 +389,7 @@ h4 {
     font-size: 24px;
     font-family: 'Neucha', cursive;
     font-weight: normal;
+    top: 0;
 }
 
 .second-header-dark {
