@@ -311,7 +311,7 @@ h4 {
     height: 100%;
     min-width: 578px;
     background-image: url(../img/1-1.png);
-    background-position: center top 5px;
+    background-position: center top;
     z-index: 1;
 }
 
