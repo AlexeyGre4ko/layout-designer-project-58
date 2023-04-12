@@ -313,6 +313,7 @@ h4 {
     background-image: url(../img/1-1.png);
     background-position: center bottom 14px;
     z-index: 1;
+    overflow: hidden;
 }
 
 .first-header-light {
