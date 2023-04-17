@@ -303,7 +303,7 @@ h4 {
     width: 100%;
     height: 434px;
     display: flex;
-    gap: 0px;
+
 }
 
 
@@ -319,13 +319,16 @@ h4 {
     color: var(--semitransparent-dark);
     font-size: 24px;
     font-family: 'Neucha', cursive;
-    right: 0;
     top: 0;
+    right: 20px;
+
 }
 
 .second-header-light {
     top: 0;
+    right: 20px;
     text-align: start;
+
 }
 
 .third-header-light {
@@ -337,6 +340,7 @@ h4 {
     font-family: 'Neucha', cursive;
     font-weight: normal;
     line-height: 40.8px;
+    right: 20px;
 }
 
 .second-columns {
