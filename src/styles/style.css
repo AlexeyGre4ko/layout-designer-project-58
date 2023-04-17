@@ -320,13 +320,13 @@ h4 {
     font-size: 24px;
     font-family: 'Neucha', cursive;
     top: 0;
-    right: 20px;
+    right: 35px;
 
 }
 
 .second-header-light {
     top: 0;
-    right: 20px;
+    right: 35px;
     text-align: start;
 
 }
@@ -340,7 +340,7 @@ h4 {
     font-family: 'Neucha', cursive;
     font-weight: normal;
     line-height: 40.8px;
-    right: 20px;
+    right: 35px;
 }
 
 .second-columns {
