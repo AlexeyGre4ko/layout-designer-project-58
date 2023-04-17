@@ -371,7 +371,7 @@ h4 {
     height: 100%;
     max-width: 1440px;
     top: -100px;
-    padding: 100px 165px 280px;
+    padding: 100px 165px 260px;
     box-sizing: border-box;
 }
 
@@ -446,7 +446,7 @@ h4 {
     height: 960px;
     max-width: 1440px;
     padding: 100px 165px 175px;
-    top: -160px;
+    /*top: -160px; */
     box-sizing: border-box;
 }
 
