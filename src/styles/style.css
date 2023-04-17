@@ -447,7 +447,7 @@ h4 {
     height: 960px;
     max-width: 1440px;
     padding: 100px 165px 175px;
-    /*top: -160px; */
+    top: -100px;
     box-sizing: border-box;
 }
 
@@ -469,7 +469,7 @@ h4 {
     height: 100%;
     max-width: 1440px;
     padding: 100px 165px 223px;
-    top: -245px;
+    top: -100px;
     box-sizing: border-box;
 }
 
@@ -492,7 +492,7 @@ h4 {
     height: 919px;
     max-width: 1440px;
     padding: 100px 165px;
-    top: -245px;
+    top: -100px;
     box-sizing: border-box;
 }
 
@@ -510,7 +510,7 @@ h4 {
     height: 581px;
     max-width: 1440px;
     padding: 100px 165px 111px;
-    top: -245px;
+    top: -100px;
     box-sizing: border-box;
 }
 
