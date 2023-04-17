@@ -308,7 +308,9 @@ h4 {
 
 
 .hexlet-students {
-    z-index: 1;
+    position: relative;
+    bottom: 15px;
+    right: 30px;
 }
 
 .first-header-light {
