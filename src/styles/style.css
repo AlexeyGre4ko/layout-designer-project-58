@@ -308,12 +308,7 @@ h4 {
 
 
 .hexlet-students {
-    height: 498px;
-    min-width: 578px;
-    background-image: url(../img/1-1.png);
-    background-position: center bottom 14px;
     z-index: 1;
-    overflow: hidden;
 }
 
 .first-header-light {
