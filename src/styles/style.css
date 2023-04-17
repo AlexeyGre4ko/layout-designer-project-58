@@ -444,9 +444,9 @@ h4 {
 
 .distortion-of-novelty {
     position: relative;
-    height: 960px;
+    height: 880px;
     max-width: 1440px;
-    padding: 100px 165px 175px;
+    padding: 100px 165px 95px;
     top: -100px;
     box-sizing: border-box;
 }
