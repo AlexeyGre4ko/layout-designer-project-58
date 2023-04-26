@@ -360,8 +360,7 @@ h4 {
     height: 100%;
     width: 1440px;
     background-image: url("../img/image-1.png");
-    background-color: var(--brown);
-    opacity: 0.9;
+
     right: 0;
     top: 0;
     background-repeat: no-repeat;
@@ -375,6 +374,8 @@ h4 {
     top: -100px;
     padding: 100px 165px 220px;
     box-sizing: border-box;
+    background-color: var(--brown);
+    opacity: 0.9;
 }
 
 .first-columns-dark {
