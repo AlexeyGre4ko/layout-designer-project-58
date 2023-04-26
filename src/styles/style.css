@@ -282,8 +282,7 @@ h4 {
     height: 960px;
     width: 1440px;
     background-image: url("../img/image-1.png");
-    background-color: var(--light);
-    opacity: 0.9;
+
     top: 0px;
     right: 0px;
     background-repeat: no-repeat;
@@ -297,6 +296,8 @@ h4 {
     padding: 100px 165px 155px;
     box-sizing: border-box;
     top: -100px;
+    background-color: var(--light);
+    opacity: 0.9;
 }
 
 .first-columns {
