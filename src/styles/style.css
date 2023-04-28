@@ -372,7 +372,7 @@ h4 {
     height: 100%;
     max-width: 1440px;
     top: -100px;
-    padding: 100px 165px 220px;
+    padding: 100px 165px;
     box-sizing: border-box;
     background-color: var(--brown);
 
