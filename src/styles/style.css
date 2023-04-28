@@ -49,7 +49,7 @@ h1,
 h2,
 h3 {
   line-height: 1.2em;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
 }
 
 h1 {
@@ -132,7 +132,7 @@ h4 {
   top: -347px;
   width: 1110px;
   margin: 0;
-  padding-top: 0px;
+  padding-top: 0;
   box-sizing: border-box;
 }
 
@@ -215,7 +215,7 @@ h4 {
   position: relative;
   top: 200px;
   margin: auto;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   font-style: normal;
   display: flex;
   flex-wrap: wrap;
@@ -282,8 +282,8 @@ h4 {
   width: 1440px;
   background-image: url("../img/image-1.png");
   opacity: 0.9;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -302,9 +302,7 @@ h4 {
   width: 100%;
   height: 434px;
   display: flex;
-
 }
-
 
 .hexlet-students {
   position: relative;
@@ -319,10 +317,9 @@ h4 {
   margin: 0;
   color: var(--semitransparent-dark);
   font-size: 24px;
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
   top: 0;
   right: 35px;
-
 }
 
 .second-header-light {
@@ -330,7 +327,6 @@ h4 {
   right: 35px;
   text-align: start;
   width: 502px;
-
 }
 
 .third-header-light {
@@ -339,7 +335,7 @@ h4 {
   top: 30px;
   color: var(--dark);
   font-size: 34px;
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
   font-weight: normal;
   line-height: 40.8px;
   right: 35px;
@@ -374,7 +370,6 @@ h4 {
   padding: 100px 165px 224px;
   box-sizing: border-box;
   background-color: var(--brown);
-
 }
 
 .first-columns-dark {
@@ -394,7 +389,7 @@ h4 {
   margin: 0;
   color: var(--semitransparent-white);
   font-size: 24px;
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
   font-weight: normal;
   top: 0;
 }
@@ -411,7 +406,7 @@ h4 {
   top: 30px;
   color: var(--white);
   font-size: 34px;
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
   line-height: 40.8px;
   width: 502px;
 }
@@ -465,6 +460,7 @@ h4 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .hyperbolic-depreciation {
   position: relative;
   height: 100%;
@@ -526,7 +522,7 @@ h4 {
 
 .input-header {
   font-size: 34px;
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
   font-weight: normal;
   color: var(--white);
   line-height: 41px;
@@ -562,7 +558,7 @@ h4 {
   top: 0;
   right: 0;
   background-color: var(--main);
-  background-image: url(../img/Vector.svg);
+  background-image: url("../img/Vector.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -588,7 +584,7 @@ h4 {
 }
 
 .name {
-  color: #000000;
+  color: #000;
   text-align: center;
   font-size: 14px;
   position: relative;
@@ -598,7 +594,7 @@ h4 {
 
 .article-link {
   margin: 16px 0;
-  color: #000000;
+  color: #000;
   text-align: center;
   font-size: 14px;
   position: relative;
@@ -606,7 +602,7 @@ h4 {
 }
 
 .hexlet-link {
-  color: #007DC1;
+  color: #007dC1;
   text-align: center;
   font-size: 14px;
   position: relative;
@@ -615,7 +611,7 @@ h4 {
 }
 
 .blue {
-  color: #007DC1;
+  color: #007dC1;
   text-decoration: underline;
 }
 
