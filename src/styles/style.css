@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: "Open Sans Bold";
-  src: url('../fonts/OpenSans-Bold.ttf');
+  src: url("../fonts/OpenSans-Bold.ttf");
   font-weight: bold;
   font-style: normal;
 }
@@ -33,10 +33,10 @@
 }
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6em;
-  color: #2A2626;
+  color: #2a2626;
   box-sizing: border-box;
 }
 
@@ -45,9 +45,11 @@ body {
   margin: 100px auto;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   line-height: 1.2em;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
 }
 
 h1 {
@@ -86,7 +88,7 @@ h4 {
   height: 26px;
   background-color: var(--brown);
   color: var(--white);
-  font-family: 'Open Sans Bold', sans-serif;
+  font-family: "Open Sans Bold", sans-serif;
   font-weight: bold;
   font-size: 14px;
 }
@@ -98,7 +100,6 @@ h4 {
   padding: 100px 165px 0;
   box-sizing: border-box;
 }
-
 
 .header::before {
   content: "";
@@ -125,16 +126,14 @@ h4 {
 }
 
 .paragraf {
-  column-count: 2;
+  columns: 542px 2;
   column-gap: 25px;
-  column-width: 542px;
   position: relative;
   top: -347px;
   width: 1110px;
   margin: 0;
   padding-top: 0px;
   box-sizing: border-box;
-
 }
 
 .paragraf-header {
@@ -143,7 +142,7 @@ h4 {
 }
 
 .paragraf-header-1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-top: 4px;
   height: 130px;
   padding-top: 12px;
@@ -158,15 +157,14 @@ h4 {
   height: 49px;
   background-color: var(--main);
   color: var(--white);
-  font-family: 'Open Sans Bold', sans-serif;
+  font-family: "Open Sans Bold", sans-serif;
   font-size: 16px;
   position: relative;
   left: 570px;
   bottom: 326px;
   border: none;
-  padding: 0;
   box-sizing: border-box;
-  padding: 11px 23px 12px 23px;
+  padding: 11px 23px 12px;
 }
 
 .link {
@@ -175,6 +173,7 @@ h4 {
   width: 101px;
   height: 26px;
 }
+
 .video {
   height: 914px;
   background: var(--white);
@@ -216,7 +215,7 @@ h4 {
   position: relative;
   top: 200px;
   margin: auto;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   font-style: normal;
   display: flex;
   flex-wrap: wrap;
@@ -265,7 +264,7 @@ h4 {
   margin: 0;
   left: 24px;
   top: 116px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   width: 302px;
   color: var(--dark);
 }
