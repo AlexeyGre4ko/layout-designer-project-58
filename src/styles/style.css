@@ -411,7 +411,7 @@ h4 {
   width: 502px;
 }
 
-.h-dark{
+.h-dark {
   background-color: var(--white);
   color: var(--brown);
 }
@@ -551,7 +551,7 @@ h4 {
 }
 
 .submit::before {
-  content: '';
+  content: " ";
   position: absolute;
   width: 70px;
   height: 50px;
@@ -602,7 +602,7 @@ h4 {
 }
 
 .hexlet-link {
-  color: #007dC1;
+  color: #007dc1;
   text-align: center;
   font-size: 14px;
   position: relative;
@@ -611,7 +611,7 @@ h4 {
 }
 
 .blue {
-  color: #007dC1;
+  color: #007dc1;
   text-decoration: underline;
 }
 
