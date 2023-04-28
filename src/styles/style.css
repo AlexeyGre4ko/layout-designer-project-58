@@ -59,7 +59,7 @@ h1 {
     z-index: 1;
 }
 
-h2 {
+.h2 {
     font-size: 60px;
     font-weight: normal;
     text-align: center;
@@ -621,5 +621,5 @@ h4 {
 }
 
 .optim {
-    height: 655px;
+    height: 100%;
 }
